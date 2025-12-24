@@ -37,3 +37,31 @@ body {
 .prose a:hover {
   color: rgb(29 78 216); /* blue-700 */
 }
+
+/* ===== FIX CODE BLOCK TRONG PROSE ===== */
+
+/* Không cho code inline phá layout */
+.prose code {
+  white-space: pre-wrap !important;
+  word-break: normal !important;
+}
+
+/* Bỏ dấu ` tự sinh */
+.prose code::before,
+.prose code::after {
+  content: none !important;
+}
+
+/* Code block */
+.prose pre {
+  white-space: pre !important;
+  overflow-x: auto;
+}
+
+/* Code bên trong pre */
+.prose pre code {
+  background: transparent !important;
+  padding: 0 !important;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
