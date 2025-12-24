@@ -44,15 +44,15 @@ export default function BlogPage() {
               <br className="sm:hidden" />
               <span className="block mt-4 sm:mt-0">
                 <span className="bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent">
-                  Facebook Marketing
+                  Facebook Tiktok Marketing
                 </span>
               </span>
             </h1>
 
             <div className="max-w-3xl mx-auto mb-12 px-4">
               <p className="text-xl sm:text-2xl text-slate-700 leading-relaxed text-balance">
-                Tất cả kiến thức crawl comment, lấy ID post, tool scraper realtime. 
-                <span className="text-emerald-600 font-bold">25K+ marketers đã áp dụng</span>
+                Tất cả kiến thức crawl comment, lấy ID post, tool crawl facebook, tiktok realtime. 
+                <span className="text-emerald-600 font-bold">25K+ user đã áp dụng</span>
               </p>
             </div>
 
@@ -69,6 +69,13 @@ export default function BlogPage() {
                 className="group bg-white text-slate-900 font-black py-5 px-10 text-xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-2 transition-all flex items-center gap-3 border-2 border-slate-200"
               >
                 💬 Demo Cào Comment
+                <BoltIcon className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
+              </Link>
+              <Link
+                href="/facebook/find-comment-post"
+                className="group from-emerald-400 text-slate-900 font-black py-5 px-10 text-xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-2 transition-all flex items-center gap-3 border-2 border-slate-200"
+              >
+                ⚡ Phiên bản Pro chạy hàng triệu link
                 <BoltIcon className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
             </div>
@@ -143,7 +150,7 @@ export default function BlogPage() {
                 >
                   <div className="text-4xl mb-4">🔍</div>
                   <div>Lấy ID Post</div>
-                  <div className="text-emerald-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">&lt;1s realtime</div>
+                  <div className="text-emerald-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">&lt;2s realtime</div>
                 </Link>
                 
                 <Link
@@ -160,8 +167,8 @@ export default function BlogPage() {
                   className="group bg-gradient-to-r from-purple-400 to-purple-600 text-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all text-center font-bold text-xl"
                 >
                   <div className="text-4xl mb-4">⚡</div>
-                  <div>Dashboard Pro</div>
-                  <div className="text-purple-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">∞ link 24/7</div>
+                  <div>Phiên bản Pro chạy hàng triệu link</div>
+                  <div className="text-purple-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">∞ link 24/24</div>
                 </Link>
               </div>
 
@@ -170,7 +177,7 @@ export default function BlogPage() {
                   href="https://fb.quetso.com/"
                   className="block w-full max-w-md mx-auto bg-white text-emerald-900 font-black py-6 px-12 text-2xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all flex items-center justify-center gap-4 mx-auto group"
                 >
-                  🚀 TRẢI NGHIỆM DASHBOARD PRO
+                  🚀 TRẢI NGHIỆM PHIÊN BẢN PRO
                   <ArrowRightIcon className="w-8 h-8 group-hover:translate-x-3 transition-transform" />
                 </Link>
               </div>

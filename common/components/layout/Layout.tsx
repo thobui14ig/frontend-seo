@@ -1,9 +1,9 @@
+// app/Layout.tsx (RootLayout + Sidebar + menu items)
 'use client'
 
 import {
   BookOpen,
   ChevronDown,
-  FileText,
   Home,
   MessageCircle,
   Search,
@@ -13,12 +13,12 @@ import Link from 'next/link'
 import { useState } from 'react'
 import MobileHeader from './MobileHeader'
 
-interface Props {
+interface SidebarProps {
   open: boolean
   onClose: () => void
 }
 
-function Sidebar({ open, onClose }: Props) {
+function Sidebar({ open, onClose }: SidebarProps) {
   const [openService, setOpenService] = useState(true)
 
   return (
@@ -33,7 +33,9 @@ function Sidebar({ open, onClose }: Props) {
 
       <aside
         className={`
-        fixed z-50 top-0 left-0 h-full w-[280px]
+        fixed z-40 top-14 md:top-0 left-0
+        h-[calc(100vh-56px)] md:h-full
+        w-[280px]
         bg-gradient-to-b from-[#0b63b6] to-[#1e3a8a] text-white
         backdrop-blur-xl border-r border-white/10
         transition-transform duration-300 shadow-2xl
@@ -52,62 +54,72 @@ function Sidebar({ open, onClose }: Props) {
               <span className="text-xs opacity-75 block">FB Scraper #1</span>
             </div>
           </div>
-          <button className="md:hidden p-2 rounded-xl hover:bg-white/20 transition-all" onClick={onClose}>
+          <button
+            className="md:hidden p-2 rounded-xl hover:bg-white/20 transition-all"
+            onClick={onClose}
+          >
             <X size={20} />
           </button>
         </div>
 
         {/* Menu */}
         <nav className="px-4 py-6 space-y-1 text-sm">
-          <Item 
-            href='/' 
-            icon={<Home size={20} className="text-emerald-300" />} 
-            label="Trang chủ" 
-            active={false}
+          <Item
+            href="/"
+            icon={<Home size={20} className="text-emerald-300" />}
+            label="Trang chủ"
           />
-          
-          <Item 
-            href='/blog' 
-            icon={<BookOpen size={20} className="text-blue-300" />} 
-            label="Blog" 
-            active={false}
+
+          <Item
+            href="/blog"
+            icon={<BookOpen size={20} className="text-blue-300" />}
+            label="Blog"
           />
-          
-          {/* Services Dropdown */}
+
           <div>
             <button
               onClick={() => setOpenService(!openService)}
               className="group flex w-full items-center justify-between px-5 py-4 rounded-2xl hover:bg-white/10 transition-all backdrop-blur-sm border border-white/10"
             >
               <div className="flex items-center gap-4">
-                <MessageCircle size={20} className="text-emerald-400 group-hover:scale-110 transition-transform" />
+                <MessageCircle
+                  size={20}
+                  className="text-emerald-400 group-hover:scale-110 transition-transform"
+                />
                 <span className="font-semibold">FB Tools</span>
               </div>
               <ChevronDown
                 size={18}
-                className={`transition-transform duration-200 ${openService ? 'rotate-180' : ''}`}
+                className={`transition-transform duration-200 ${
+                  openService ? 'rotate-180' : ''
+                }`}
               />
             </button>
 
-            <div className={`overflow-hidden transition-all duration-300 ${openService ? 'max-h-96 mt-2' : 'max-h-0 mt-0'}`}>
+            <div
+              className={`overflow-hidden transition-all duration-300 ${
+                openService ? 'max-h-96 mt-2' : 'max-h-0 mt-0'
+              }`}
+            >
               {openService && (
                 <div className="ml-8 space-y-1 py-2">
-                  <SubItem 
-                    href='/facebook/find-post-info' 
-                    icon={<Search size={18} className="text-blue-400" />} 
-                    label="🔍 Lấy ID Post" 
+                  <SubItem
+                    href="/facebook/find-post-info"
+                    icon={<Search size={18} className="text-blue-400" />}
+                    label="Lấy ID Post"
                   />
-                  <SubItem 
-                    href='/facebook/find-comment-post' 
-                    icon={<MessageCircle size={18} className="text-emerald-400" />} 
-                    label="💬 Cào Comment" 
+                  <SubItem
+                    href="/facebook/find-comment-post"
+                    icon={
+                      <MessageCircle size={18} className="text-emerald-400" />
+                    }
+                    label="Cào Comment"
                   />
                 </div>
               )}
             </div>
           </div>
 
-          {/* Divider */}
           <div className="my-4 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         </nav>
 
@@ -140,8 +152,8 @@ function Item({
   active?: boolean
 }) {
   return (
-    <Link 
-      href={href} 
+    <Link
+      href={href}
       className={`
         flex items-center gap-4 px-5 py-4 rounded-2xl cursor-pointer 
         transition-all duration-200 backdrop-blur-sm border border-white/10
@@ -170,8 +182,8 @@ function SubItem({
   href: string
 }) {
   return (
-    <Link 
-      href={href} 
+    <Link
+      href={href}
       className="flex items-center gap-3 px-5 py-3 rounded-xl cursor-pointer hover:bg-white/20 transition-all ml-2 text-sm border-r-4 border-transparent hover:border-emerald-400 hover:pl-7"
     >
       {icon}

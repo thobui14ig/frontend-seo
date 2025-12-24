@@ -55,16 +55,16 @@ export default function Home() {
 
             <div className="max-w-2xl mx-auto mb-12 px-4">
               <p className="text-xl sm:text-2xl text-slate-700 leading-relaxed mb-8 text-balance">
-                <strong>1 link → ∞ comment realtime</strong> • <span className="text-emerald-600 font-bold">&lt;2s latency</span>
+                <strong>1 link → ∞ comment realtime</strong> • <span className="text-emerald-600 font-bold">&lt;2s độ trễ</span>
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm sm:text-base text-slate-600 mb-12">
                 <div className="flex items-center gap-2 bg-emerald-100/80 text-emerald-800 px-6 py-3 rounded-2xl font-semibold">
                   <ShieldCheckIcon className="w-5 h-5" />
-                  Không Checkpoint
+                  An toàn
                 </div>
                 <div className="flex items-center gap-2 bg-blue-100/80 text-blue-800 px-6 py-3 rounded-2xl font-semibold">
                   <BoltIcon className="w-5 h-5" />
-                  ∞ Link 24/7
+                  ∞ Hoạt động 24/24
                 </div>
               </div>
             </div>
@@ -82,14 +82,14 @@ export default function Home() {
           {/* Live Stats */}
           <section className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 sm:p-12 mb-20 border border-slate-200/50 shadow-2xl">
             <h2 className="text-3xl sm:text-4xl font-black text-center mb-12 bg-gradient-to-r from-slate-900 to-emerald-900 bg-clip-text text-transparent">
-              📊 LIVE STATS
+              📊 Thống kê
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               {[
                 { num: '25K+', label: 'Users', icon: '👥' },
                 { num: '5M+', label: 'Comments', icon: '💬' },
-                { num: '99.99%', label: 'Uptime', icon: '🟢' },
-                { num: '<2s', label: 'Latency', icon: '⚡' }
+                { num: '24/24', label: 'Hoạt động', icon: '🟢' },
+                { num: '<2s', label: 'Độ trễ', icon: '⚡' }
               ].map((stat, i) => (
                 <div key={i} className="group p-6 rounded-2xl bg-gradient-to-br from-emerald-50 to-blue-50 border border-emerald-200 hover:shadow-2xl hover:-translate-y-2 transition-all">
                   <div className="text-4xl mb-4">{stat.icon}</div>
@@ -109,7 +109,7 @@ export default function Home() {
               {[
                 {
                   icon: BoltIcon,
-                  title: '⚡ Realtime <2s',
+                  title: '⚡ Độ trễ <2s',
                   desc: 'Comment mới cập nhật tức thì. Độ trễ thấp nhất thị trường.',
                   color: 'from-emerald-500 to-green-600'
                 },
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="group bg-gradient-to-br from-emerald-500 to-green-600 text-white p-12 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-4 transition-all text-center">
               <div className="text-6xl mb-8">🧪</div>
               <h3 className="text-3xl font-black mb-6 leading-tight">Demo Nhanh</h3>
-              <p className="text-xl opacity-95 mb-10 leading-relaxed">Thử 1 link → Xem comment live ngay</p>
+              <p className="text-xl opacity-95 mb-10 leading-relaxed">Thử 1 link → Xem comment ngay</p>
               <Link href="/facebook/find-comment-post" className="inline-flex items-center gap-3 bg-white text-emerald-900 font-black py-5 px-10 text-xl rounded-2xl hover:shadow-2xl transition-all w-full max-w-sm mx-auto">
                 Demo Miễn Phí
                 <ArrowRightIcon className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
@@ -152,7 +152,7 @@ export default function Home() {
             <div className="group bg-gradient-to-br from-blue-500 to-purple-600 text-white p-12 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-4 transition-all text-center">
               <div className="text-6xl mb-8">⚡</div>
               <h3 className="text-3xl font-black mb-6 leading-tight">Dashboard Pro</h3>
-              <p className="text-xl opacity-95 mb-10 leading-relaxed">∞ link • 24/7 • Export tự động</p>
+              <p className="text-xl opacity-95 mb-10 leading-relaxed">∞ Chạy hàng triệu link • 24/24 • Export excel dễ dàng</p>
               <Link href="https://fb.quetso.com/" className="inline-flex items-center gap-3 bg-white text-blue-900 font-black py-5 px-10 text-xl rounded-2xl hover:shadow-2xl transition-all w-full max-w-sm mx-auto">
                 Truy Cập Dashboard
                 <ArrowRightIcon className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
@@ -202,10 +202,10 @@ export default function Home() {
                 25K+ sellers tăng 5x doanh số
               </div>
               <h2 className="text-4xl sm:text-6xl font-black mb-8 bg-gradient-to-r from-slate-900 via-emerald-900 to-blue-900 bg-clip-text text-transparent leading-tight">
-                Sẵn sàng bắt lead
+                Sẵn sàng 
                 <br className="sm:hidden" />
                 <span className="bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent">
-                  realtime ngay?
+                  bắt đầu ngay?
                 </span>
               </h2>
               <p className="text-2xl text-slate-600 mb-12 max-w-2xl mx-auto">
@@ -216,12 +216,12 @@ export default function Home() {
                   href="https://fb.quetso.com/"
                   className="block w-full max-w-lg mx-auto bg-white text-emerald-900 font-black py-8 px-12 text-2xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all flex items-center justify-center gap-6 mx-auto group"
                 >
-                  🚀 BẮT ĐẦU NGAY - MIỄN PHÍ
+                  🚀 BẮT ĐẦU NGAY
                   <ArrowRightIcon className="w-10 h-10 group-hover:translate-x-4 transition-transform" />
                 </Link>
               </div>
               <div className="text-xl text-slate-500 space-y-2 max-w-2xl mx-auto">
-                <p>✅ Không cần credit card • Hủy mọi lúc</p>
+                <p>✅ Tạo tài khoản dễ dàng • Hủy mọi lúc</p>
                 <p>✅ 99.99% uptime • Support 24/7 tiếng Việt</p>
                 <p>✅ Facebook + TikTok • Private post OK</p>
               </div>
