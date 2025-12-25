@@ -1,53 +1,88 @@
-'use client'
+"use client";
 
-import { Input, Button, Form } from "antd";
-import { useState } from "react";
-import { useUidStore } from "./store";
 import { getInfoFbLink } from "@/api/facebook.api";
+import { LoadingOutlined } from "@ant-design/icons";
+import { Button, Form, Input } from "antd";
+import type { AxiosError } from "axios";
+import { useState, useTransition } from "react";
 import { toast } from "react-toastify";
+import { useUidStore } from "./store";
 
 export default function UidForm() {
+  const [form] = Form.useForm();
   const [link, setLink] = useState("");
-  const { setResult, setIsGetInfo } = useUidStore();
+  const { setResult, setIsGetInfo, isGetInfo } = useUidStore();
+  const [isPending, startTransition] = useTransition();
 
   const handleSubmit = async () => {
-    if (link.length === 0) {
-      toast.error("Vui lòng nhập link!")
-      return
+    if (!link.trim()) {
+      toast.error("Vui lòng nhập link Facebook!");
+      return;
     }
-    try {
-      setIsGetInfo(true)
-      const res = await getInfoFbLink(link)
 
-      setResult(res.data);  
-      setIsGetInfo(false)    
-    } catch (error: any) {
-      setIsGetInfo(false)  
-      setResult(null)
-      toast.error(`Lỗi server: ${error.message}`)
-    } 
+    startTransition(async () => {
+      try {
+        setIsGetInfo(true);
+        const res = await getInfoFbLink(link);
+        setResult(res.data);
+        form.resetFields();
+        toast.success("Lấy thông tin thành công!");
+      } catch (e) {
+        const error = e as AxiosError;
+        setResult(null);
+        toast.error(`Lỗi server: ${error.message}`);
+      } finally {
+        setIsGetInfo(false);
+      }
+    });
   };
 
   return (
-    <Form layout="vertical" onFinish={handleSubmit}>
-      <Form.Item label="Link facebook">
-        <Input
-          size="large"
-          placeholder="Nhập Link facebook cần lấy thông tin"
-          value={link}
-          onChange={(e) => setLink(e.target.value)}
-          style={{ height: 50 }}
-        />
-      </Form.Item>
+    <div className="space-y-6">
+      <Form form={form} layout="vertical" onFinish={handleSubmit}>
+        <div className="space-y-5">
+          {/* Link Input */}
+          <Form.Item
+            label={
+              <span className="text-sm font-medium text-gray-700">
+                Link Facebook
+              </span>
+            }
+            name="link"
+          >
+            <Input
+              size="large"
+              placeholder="https://www.facebook.com/username/posts/123456789..."
+              value={link}
+              onChange={(e) => setLink(e.target.value)}
+              className="h-14 rounded-xl border-gray-200 focus:border-blue-500 transition-all"
+              prefix={<span className="text-gray-400 mr-3">🔗</span>}
+            />
+          </Form.Item>
 
-      <Button
-        type="primary"
-        htmlType="submit"
-        size="large"
-        style={{ width: "100%", height: 55, fontSize: 18 }}
-      >
-        Lấy thông tin
-      </Button>
-    </Form>
+          {/* Submit Button */}
+          <Form.Item>
+            <Button
+              type="primary"
+              htmlType="submit"
+              size="large"
+              loading={isPending || isGetInfo}
+              disabled={!link.trim()}
+              className="h-14 text-lg font-semibold rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300 w-full"
+              icon={isPending || isGetInfo ? <LoadingOutlined /> : <span>🔍</span>}
+            >
+              {isPending || isGetInfo ? "Đang lấy..." : "Lấy thông tin"}
+            </Button>
+          </Form.Item>
+        </div>
+      </Form>
+
+      {/* Hint */}
+      <div className="p-4 bg-gradient-to-r from-slate-50 to-sky-50 rounded-2xl border border-slate-100">
+        <p className="text-xs text-slate-700 font-medium">
+          Nhập link post, profile hoặc page hợp lệ để lấy thông tin nhanh chóng.
+        </p>
+      </div>
+    </div>
   );
 }

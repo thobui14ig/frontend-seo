@@ -47,7 +47,7 @@ export default function Page() {
           </nav>
 
           {/* Hero */}
-          <section className="text-center mb-12 sm:mb-16 lg:mb-24">
+          <section className="text-center mb-10 sm:mb-10 lg:mb-10">
             <div className="inline-flex items-center bg-gradient-to-r from-emerald-400 to-green-500 text-white px-4 py-2 rounded-full mb-6 font-bold text-sm shadow-lg mx-auto">
               <StarIcon className="w-4 h-4 mr-2" />
               #1 TOOL 2025 - KHÔNG CHECKPOINT
@@ -62,24 +62,6 @@ export default function Page() {
                 </span>
               </span>
             </h1>
-
-            <div className="max-w-lg mx-auto mb-8 px-2">
-              <p className="text-lg sm:text-xl text-slate-700 leading-relaxed text-balance">
-                <strong>1 link → ∞ comment</strong> realtime • 
-                <br className="sm:hidden" />
-                <span className="text-emerald-600 font-bold">Không khóa nick 100%</span>
-              </p>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center text-xs sm:text-sm text-slate-600 mb-8 px-2">
-              <div className="flex items-center gap-2 bg-emerald-100 text-emerald-800 px-4 py-2 rounded-xl font-semibold">
-                <ShieldCheckIcon className="w-4 h-4" />
-                Không Checkpoint
-              </div>
-              <div className="flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-xl font-semibold">
-                🚀 Tốc Độ #1
-              </div>
-            </div>
 
             <a
               href="/facebook/find-comment-post"
@@ -117,8 +99,8 @@ export default function Page() {
                 },
                 {
                   number: '3️⃣',
-                  title: 'Tool Online ✅',
-                  desc: '🎯 Siêu nhanh • Không checkpoint • ∞ link • 99.9% uptime',
+                  title: 'Web của Thotool ✅',
+                  desc: '🎯 Siêu nhanh • Xử lý hàng triệu link 24/24',
                   icon: PlayIcon,
                   color: 'from-emerald-500 to-green-600',
                   status: 'Khuyến khích 100%'
@@ -145,14 +127,9 @@ export default function Page() {
             </div>
           </section>
 
-          {/* Live Demo Preview */}
           <section className="bg-gradient-to-r from-emerald-50 to-blue-50 rounded-3xl p-8 sm:p-12 mb-16 border border-emerald-200 shadow-xl">
-            <h2 className="text-2xl sm:text-3xl font-bold text-center text-slate-900 mb-8">
-              🎥 Dashboard Preview
-            </h2>
             <div className="max-w-3xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4">Dán 1 link → Comment live</h3>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 p-4 bg-white rounded-2xl shadow-sm border-l-4 border-emerald-500">
                     <div className="w-10 h-10 bg-gradient-to-r from-emerald-400 to-green-500 rounded-full flex items-center justify-center font-bold text-white text-sm">A</div>
@@ -170,19 +147,6 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-              <div className="text-center lg:text-left">
-                <div className="text-4xl font-black text-emerald-600 mb-4 animate-pulse">LIVE</div>
-                <div className="grid grid-cols-2 gap-4 text-center">
-                  <div>
-                    <div className="text-2xl font-bold text-slate-900">1.247</div>
-                    <div className="text-xs text-slate-500 uppercase">Comments</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-emerald-600">+47</div>
-                    <div className="text-xs text-slate-500 uppercase">New</div>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
 
@@ -191,7 +155,7 @@ export default function Page() {
             <div className="group bg-gradient-to-br from-emerald-500 to-green-600 text-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all text-center">
               <div className="text-4xl mb-4">🧪</div>
               <h3 className="text-2xl font-black mb-4 leading-tight">Demo 1 Link</h3>
-              <p className="opacity-95 mb-6 leading-relaxed">Thử nghiệm nhanh • Xem comment live</p>
+              <p className="opacity-95 mb-6 leading-relaxed">Thử nghiệm nhanh • Xem comment ngay</p>
               <a href="/facebook/find-comment-post" className="inline-flex items-center justify-center gap-2 w-full bg-white text-emerald-900 font-bold py-4 px-6 rounded-2xl hover:shadow-xl transition-all">
                 Demo Ngay
                 <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -200,8 +164,8 @@ export default function Page() {
 
             <div className="group bg-gradient-to-br from-blue-500 to-purple-600 text-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all text-center">
               <div className="text-4xl mb-4">⚡</div>
-              <h3 className="text-2xl font-black mb-4 leading-tight">Dashboard Pro</h3>
-              <p className="opacity-95 mb-6 leading-relaxed">∞ link • 24/7 • Không giới hạn</p>
+              <h3 className="text-2xl font-black mb-4 leading-tight">Phiên bản Pro</h3>
+              <p className="opacity-95 mb-6 leading-relaxed">Xử lý hàng triệu link • 24/24 • Không giới hạn</p>
               <a href="https://fb.quetso.com/" className="inline-flex items-center justify-center gap-2 w-full bg-white text-blue-900 font-bold py-4 px-6 rounded-2xl hover:shadow-xl transition-all">
                 Dashboard Pro
                 <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -212,14 +176,14 @@ export default function Page() {
           {/* Safety Features */}
           <section className="mb-16">
             <h2 className="text-2xl sm:text-3xl font-black text-center mb-12 bg-gradient-to-r from-slate-900 to-emerald-900 bg-clip-text text-transparent">
-              ✅ Tại Sao An Toàn 100%?
+              ✅ Tại Sao Nên Chọn Thotool.com?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
               {[
                 { icon: ShieldCheckIcon, title: 'Không Login', desc: 'Không cần tài khoản Facebook' },
                 { icon: BoltIcon, title: 'Serverless', desc: 'Cloud proxy tự động' },
                 { icon: UsersIcon, title: '15K+ Users', desc: 'Chạy ổn định 12 tháng' },
-                { icon: ChatBubbleLeftIcon, title: 'Private OK', desc: 'Cào được bài viết riêng tư' }
+                { icon: ChatBubbleLeftIcon, title: 'Cực mạnh ', desc: 'Xử lý hàng triệu link 24/24' }
               ].map((feature, i) => (
                 <div key={i} className="group p-6 rounded-2xl bg-white/70 border border-slate-200 hover:shadow-xl hover:border-emerald-300 transition-all flex items-start gap-4">
                   <div className="w-12 h-12 bg-emerald-500 text-white rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-all">
@@ -243,8 +207,7 @@ export default function Page() {
               {[
                 { q: 'Có bị khóa nick Facebook?', a: '❌ Không! Tool độc lập hoàn toàn' },
                 { q: 'Cào được bài viết private?', a: '✅ Có! Nếu bạn xem được bài viết' },
-                { q: 'Demo có giới hạn?', a: '⚠️ 1 link/lần • Pro: ∞ link' },
-                { q: 'Tốc độ bao lâu 1 comment?', a: '🚀 &lt;3s realtime update' }
+                { q: 'Tốc độ bao lâu 1 comment?', a: '🚀 Dưới 3s' }
               ].map((faq, i) => (
                 <div key={i} className="group p-6 rounded-2xl bg-white/80 border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all hover:border-emerald-300">
                   <h3 className="font-bold text-lg mb-2 leading-tight line-clamp-2">{faq.q}</h3>
@@ -275,10 +238,6 @@ export default function Page() {
                   🚀 BẮT ĐẦU DEMO NGAY
                   <ArrowRightIcon className="w-6 h-6" />
                 </a>
-              </div>
-              <div className="text-sm text-slate-500 space-y-1 max-w-md mx-auto">
-                <p>✅ Demo miễn phí • Không cần đăng ký</p>
-                <p>✅ Không checkpoint • 99.9% uptime 24/7</p>
               </div>
             </div>
           </section>

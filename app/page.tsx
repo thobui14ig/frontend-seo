@@ -37,7 +37,7 @@ export default function Home() {
         <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-20">
           
           {/* Hero Section */}
-          <section className="text-center mb-16 sm:mb-24 lg:mb-32">
+          <section className="text-center mb-10">
             <div className="inline-flex items-center bg-emerald-500/90 backdrop-blur-sm text-white px-6 py-3 rounded-full mb-8 font-bold text-lg shadow-2xl mx-auto">
               <StarIcon className="w-6 h-6 mr-3" />
               #1 TOOL 2025 - 25K+ USERS
@@ -55,7 +55,7 @@ export default function Home() {
 
             <div className="max-w-2xl mx-auto mb-12 px-4">
               <p className="text-xl sm:text-2xl text-slate-700 leading-relaxed mb-8 text-balance">
-                <strong>1 link → ∞ comment realtime</strong> • <span className="text-emerald-600 font-bold">&lt;2s độ trễ</span>
+                <strong>Nhập link → Comment realtime</strong> • <span className="text-emerald-600 font-bold">&lt;2s độ trễ</span>
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm sm:text-base text-slate-600 mb-12">
                 <div className="flex items-center gap-2 bg-emerald-100/80 text-emerald-800 px-6 py-3 rounded-2xl font-semibold">
@@ -74,12 +74,11 @@ export default function Home() {
               className="block w-full max-w-md mx-auto sm:w-auto bg-gradient-to-r from-emerald-500 to-blue-600 text-white font-black py-6 px-12 text-xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-2 transition-all duration-300 flex items-center justify-center gap-4 mx-auto group"
             >
               <PlayIcon className="w-7 h-7 group-hover:rotate-12 transition-transform" />
-              🚀 DASHBOARD PRO NGAY
+              🚀 DÙNG BẢN PRO NGAY
               <ArrowRightIcon className="w-7 h-7 group-hover:translate-x-2 transition-transform" />
             </a>
           </section>
 
-          {/* Live Stats */}
           <section className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 sm:p-12 mb-20 border border-slate-200/50 shadow-2xl">
             <h2 className="text-3xl sm:text-4xl font-black text-center mb-12 bg-gradient-to-r from-slate-900 to-emerald-900 bg-clip-text text-transparent">
               📊 Thống kê
@@ -152,9 +151,9 @@ export default function Home() {
             <div className="group bg-gradient-to-br from-blue-500 to-purple-600 text-white p-12 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-4 transition-all text-center">
               <div className="text-6xl mb-8">⚡</div>
               <h3 className="text-3xl font-black mb-6 leading-tight">Dashboard Pro</h3>
-              <p className="text-xl opacity-95 mb-10 leading-relaxed">∞ Chạy hàng triệu link • 24/24 • Export excel dễ dàng</p>
+              <p className="text-xl opacity-95 mb-10 leading-relaxed">∞ Chạy hàng triệu link • 24/24</p>
               <Link href="https://fb.quetso.com/" className="inline-flex items-center gap-3 bg-white text-blue-900 font-black py-5 px-10 text-xl rounded-2xl hover:shadow-2xl transition-all w-full max-w-sm mx-auto">
-                Truy Cập Dashboard
+                Truy Cập
                 <ArrowRightIcon className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
             </div>
@@ -216,7 +215,7 @@ export default function Home() {
                   href="https://fb.quetso.com/"
                   className="block w-full max-w-lg mx-auto bg-white text-emerald-900 font-black py-8 px-12 text-2xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all flex items-center justify-center gap-6 mx-auto group"
                 >
-                  🚀 BẮT ĐẦU NGAY
+                  🚀 DÙNG BẢN PRO NGAY
                   <ArrowRightIcon className="w-10 h-10 group-hover:translate-x-4 transition-transform" />
                 </Link>
               </div>
