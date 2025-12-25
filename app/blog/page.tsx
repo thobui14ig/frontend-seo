@@ -36,15 +36,15 @@ export default function BlogPage() {
           <section className="text-center mb-20 sm:mb-28">
             <div className="inline-flex items-center bg-gradient-to-r from-emerald-500 to-blue-600 text-white px-8 py-4 rounded-3xl mb-8 font-black text-xl shadow-2xl mx-auto">
               <StarIconSolid className="w-8 h-8 mr-3" />
-              BLOG #1 FACEBOOK MARKETING 2025
+              BLOG #1 TOOL FACEBOOK TIKOTK 2025
             </div>
             
             <h1 className="font-black text-4xl sm:text-6xl lg:text-7xl leading-tight mb-6 bg-gradient-to-r from-slate-900 to-emerald-900 bg-clip-text text-transparent">
-              Hướng Dẫn
+              Hướng Dẫn Tool
               <br className="sm:hidden" />
               <span className="block mt-4 sm:mt-0">
                 <span className="bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent">
-                  Facebook Tiktok Marketing
+                  Facebook Tiktok
                 </span>
               </span>
             </h1>

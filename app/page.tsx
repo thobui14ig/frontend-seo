@@ -163,7 +163,7 @@ export default function Home() {
           {/* Blog Section */}
           <section className="mb-24">
             <h2 className="text-3xl sm:text-4xl font-black text-center mb-16 bg-gradient-to-r from-slate-900 to-emerald-900 bg-clip-text text-transparent">
-              📚 Hướng Dẫn Facebook Marketing
+              📚 Hướng Dẫn Tool Facebook Tiktok
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {blogPosts.slice(0, 6).map((post, i) => (
