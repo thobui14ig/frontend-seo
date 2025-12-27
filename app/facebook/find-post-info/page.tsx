@@ -1,10 +1,7 @@
 import DemoNotice from '@/common/components/DemoNotice'
 import SeoLayout from '@/common/components/layout/SeoLayout'
 import {
-  ArrowRightIcon,
-  BoltIcon,
-  IdentificationIcon,
-  PlayIcon
+  ArrowRightIcon
 } from '@heroicons/react/24/outline'
 import { StarIcon } from '@heroicons/react/24/solid'
 import { Metadata } from 'next'
@@ -104,7 +101,7 @@ export default function Page() {
                 ∞ Xử lý hàng triệu link • Cực nhanh • Hoạt động 24/24
               </p>
               <Link
-                href="https://fb.quetso.com/"
+                href="https://id.thotool.com/"
                 className="block w-full max-w-lg mx-auto bg-gradient-to-r from-emerald-500 to-blue-600 text-white font-black py-7 px-12 text-2xl rounded-4xl shadow-3xl hover:shadow-4xl hover:-translate-y-4 transition-all flex items-center justify-center gap-6 mx-auto group"
               >
                 🚀 NÂNG CẤP PHIÊN BẢN PRO
@@ -123,7 +120,7 @@ export default function Page() {
               </Link>
               
               <Link
-                href="https://fb.quetso.com/"
+                href="https://id.thotool.com/"
                 className="group p-8 rounded-3xl bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 hover:shadow-2xl hover:-translate-y-3 transition-all text-center hover:border-blue-400"
               >
                 <div className="text-3xl mb-4">⚡</div>

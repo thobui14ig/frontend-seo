@@ -126,7 +126,7 @@ function Sidebar({ open, onClose }: SidebarProps) {
         {/* Bottom CTA */}
         <div className="absolute bottom-6 left-6 right-6">
           <Link
-            href="https://fb.quetso.com/"
+            href="https://id.thotool.com/"
             className="group flex items-center gap-3 w-full bg-gradient-to-r from-emerald-500 to-emerald-600 text-white p-5 rounded-2xl font-bold text-sm shadow-2xl hover:shadow-3xl hover:-translate-y-1 transition-all backdrop-blur-sm border border-emerald-400/50"
           >
             <span className="text-lg">🚀</span>

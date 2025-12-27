@@ -70,7 +70,7 @@ export default function Home() {
             </div>
 
             <a
-              href="https://fb.quetso.com/"
+              href="https://id.thotool.com/"
               className="block w-full max-w-md mx-auto sm:w-auto bg-gradient-to-r from-emerald-500 to-blue-600 text-white font-black py-6 px-12 text-xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-2 transition-all duration-300 flex items-center justify-center gap-4 mx-auto group"
             >
               <PlayIcon className="w-7 h-7 group-hover:rotate-12 transition-transform" />
@@ -152,7 +152,7 @@ export default function Home() {
               <div className="text-6xl mb-8">⚡</div>
               <h3 className="text-3xl font-black mb-6 leading-tight">Dashboard Pro</h3>
               <p className="text-xl opacity-95 mb-10 leading-relaxed">∞ Chạy hàng triệu link • 24/24</p>
-              <Link href="https://fb.quetso.com/" className="inline-flex items-center gap-3 bg-white text-blue-900 font-black py-5 px-10 text-xl rounded-2xl hover:shadow-2xl transition-all w-full max-w-sm mx-auto">
+              <Link href="https://id.thotool.com/" className="inline-flex items-center gap-3 bg-white text-blue-900 font-black py-5 px-10 text-xl rounded-2xl hover:shadow-2xl transition-all w-full max-w-sm mx-auto">
                 Truy Cập
                 <ArrowRightIcon className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -212,7 +212,7 @@ export default function Home() {
               </p>
               <div className="bg-gradient-to-r from-emerald-500 via-blue-600 to-purple-600 p-12 rounded-4xl shadow-3xl mb-12">
                 <Link
-                  href="https://fb.quetso.com/"
+                  href="https://id.thotool.com/"
                   className="block w-full max-w-lg mx-auto bg-white text-emerald-900 font-black py-8 px-12 text-2xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all flex items-center justify-center gap-6 mx-auto group"
                 >
                   🚀 DÙNG BẢN PRO NGAY

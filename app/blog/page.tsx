@@ -136,7 +136,7 @@ export default function BlogPage() {
                 </Link>
                 
                 <Link
-                  href="https://fb.quetso.com/"
+                  href="https://id.thotool.com/"
                   className="group bg-gradient-to-r from-purple-400 to-purple-600 text-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all text-center font-bold text-xl"
                 >
                   <div className="text-4xl mb-4">⚡</div>
@@ -147,7 +147,7 @@ export default function BlogPage() {
 
               <div className="bg-gradient-to-r from-emerald-500 to-blue-600 p-10 rounded-4xl shadow-3xl">
                 <Link
-                  href="https://fb.quetso.com/"
+                  href="https://id.thotool.com/"
                   className="block w-full max-w-md mx-auto bg-white text-emerald-900 font-black py-6 px-12 text-2xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all flex items-center justify-center gap-4 mx-auto group"
                 >
                   🚀 TRẢI NGHIỆM PHIÊN BẢN PRO

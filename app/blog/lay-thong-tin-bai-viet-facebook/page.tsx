@@ -11,14 +11,14 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Lấy Thông Tin Bài Viết Facebook Nhanh Chóng #1 2025 - Quetso.com',
-  description: '🚀 Tool lấy thông tin bài viết Facebook realtime: ID post, nội dung, tên page/profile. Hỗ trợ private post + tích hợp cào comment hàng loạt fb.quetso.com',
+  title: 'Lấy Thông Tin Bài Viết Facebook Nhanh Chóng #1 2025 - thotool.com',
+  description: '🚀 Tool lấy thông tin bài viết Facebook realtime: ID post, nội dung, tên page/profile. Hỗ trợ private post + tích hợp cào comment hàng loạt fb.thotool.com',
   keywords: [
     'lấy thông tin bài viết facebook 2025',
     'facebook post id extractor',
     'lấy id bài viết facebook',
     'facebook post information tool',
-    'quetso facebook scraper'
+    'thotool facebook scraper'
   ],
   openGraph: {
     title: '🔍 Tool Lấy Thông Tin Bài Viết Facebook Realtime',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 
 const postData = {
   type: 'PUBLIC',
-  name: 'Quetso FB Tools',
+  name: 'thotool FB Tools',
   postId: '1234567890123456',
   content: '🔥 Tool cào comment Facebook realtime siêu tốc chỉ với 1 link. Xử lý ∞ link 24/7, bắt lead tức thì!'
 }
@@ -178,7 +178,7 @@ export default function Page() {
               <div className="text-4xl mb-4">💬</div>
               <h3 className="text-2xl font-black mb-4 leading-tight">Cào Comment Pro</h3>
               <p className="opacity-95 mb-6 leading-relaxed">Dán link → Cào ∞ comment 24/24</p>
-              <a href="https://fb.quetso.com/" className="inline-flex items-center justify-center gap-2 w-full bg-white text-blue-900 font-bold py-4 px-6 rounded-2xl hover:shadow-xl transition-all">
+              <a href="https://id.thotool.com/" className="inline-flex items-center justify-center gap-2 w-full bg-white text-blue-900 font-bold py-4 px-6 rounded-2xl hover:shadow-xl transition-all">
                 Dashboard Pro
                 <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>

@@ -11,13 +11,13 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Cách Lấy ID Bài Viết Facebook #1 2025 - Siêu Nhanh & Chính Xác',
-  description: '🚀 Hướng dẫn lấy ID bài viết Facebook realtime cho profile, fanpage, group. Tool demo miễn phí + tích hợp cào comment hàng loạt fb.quetso.com',
+  description: '🚀 Hướng dẫn lấy ID bài viết Facebook realtime cho profile, fanpage, group. Tool demo miễn phí + tích hợp cào comment hàng loạt fb.thotool.com',
   keywords: [
     'cách lấy id bài viết facebook 2025',
     'lấy id post facebook nhanh',
     'facebook post id extractor',
     'lấy id bài viết fanpage',
-    'quetso facebook tools'
+    'thotool facebook tools'
   ],
   openGraph: {
     title: '🔍 Cách Lấy ID Bài Viết Facebook Siêu Nhanh 2025',
@@ -155,7 +155,7 @@ export default function Page() {
                   <div className="flex-1 min-w-0">
                     <div className="font-semibold text-slate-900 truncate">Link Facebook Post</div>
                     <div className="text-xs text-slate-500 break-all">
-                      facebook.com/quetsotools/posts/1234567890123456
+                      facebook.com/thotooltools/posts/1234567890123456
                     </div>
                   </div>
                 </div>
@@ -195,7 +195,7 @@ export default function Page() {
               <div className="text-4xl mb-4">💬</div>
               <h3 className="text-2xl font-black mb-4 leading-tight">Cào Comment Pro</h3>
               <p className="opacity-95 mb-6 leading-relaxed">Dùng ID vừa lấy → Cào ∞ comment</p>
-              <a href="https://fb.quetso.com/" className="inline-flex items-center justify-center gap-2 w-full bg-white text-blue-900 font-bold py-4 px-6 rounded-2xl hover:shadow-xl transition-all">
+              <a href="https://id.thotool.com/" className="inline-flex items-center justify-center gap-2 w-full bg-white text-blue-900 font-bold py-4 px-6 rounded-2xl hover:shadow-xl transition-all">
                 Dashboard Chuyên Nghiệp
                 <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>

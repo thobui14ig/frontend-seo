@@ -14,14 +14,14 @@ import {
 } from '@heroicons/react/24/solid'
 
 export const metadata: Metadata = {
-  title: 'Tool Cào Comment Facebook Realtime #1 2025 - Quetso.com',
-  description: '🚀 Cào comment Facebook realtime siêu tốc chỉ với 1 link. Xử lý ∞ link 24/7, bắt lead tức thì. Không cài đặt, dashboard pro tại fb.quetso.com',
+  title: 'Tool Cào Comment Facebook Realtime #1 2025 - thotool.com',
+  description: '🚀 Cào comment Facebook realtime siêu tốc chỉ với 1 link. Xử lý ∞ link 24/7, bắt lead tức thì. Không cài đặt, dashboard pro tại fb.thotool.com',
   keywords: [
     'tool cào comment facebook 2025',
     'cào comment realtime',
     'facebook comment scraper',
     'tool quét comment fb online',
-    'quetso facebook scraper'
+    'thotool facebook scraper'
   ],
   openGraph: {
     title: 'Tool Cào Comment Facebook Realtime #1 2025',
@@ -158,7 +158,7 @@ export default function Page() {
             {/* Mobile CTA */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-12 sm:mb-20">
               <a
-                href="https://fb.quetso.com/"
+                href="https://id.thotool.com/"
                 className="group w-full sm:w-auto bg-gradient-to-r from-blue-600 to-emerald-600 text-white font-bold py-4 sm:py-5 px-8 sm:px-10 text-base sm:text-lg rounded-2xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 max-w-sm mx-auto"
               >
                 <PlayIcon className="w-5 h-5 sm:w-6 sm:h-6 group-hover:rotate-12 transition-transform flex-shrink-0" />
@@ -302,7 +302,7 @@ export default function Page() {
               </p>
               <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 justify-center items-center p-6 sm:p-8 bg-gradient-to-r from-blue-600 via-emerald-600 to-purple-600 rounded-2xl sm:rounded-3xl shadow-3xl mb-8 sm:mb-12">
                 <a
-                  href="https://fb.quetso.com/"
+                  href="https://id.thotool.com/"
                   className="bg-white text-blue-900 font-black py-5 sm:py-6 px-8 sm:px-12 text-lg sm:text-xl lg:text-2xl rounded-2xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-300 flex items-center gap-3 sm:gap-4 tracking-wide w-full sm:w-auto justify-center"
                 >
                   🚀 TRUY CẬP DASHBOARD

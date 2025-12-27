@@ -15,7 +15,7 @@ export default function DemoNotice() {
       Nếu bạn cần <b>crawl comment Facebook hàng loạt</b>, tốc độ cao và xuất dữ
       liệu đầy đủ, hãy sử dụng{" "}
       <a
-        href="https://fb.quetso.com"
+        href="https://id.thotool.com"
         style={{ color: "#1677ff", fontWeight: 600 }}
       >
         công cụ chuyên nghiệp tại đây

@@ -13,13 +13,13 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Cách Cào Comment Facebook #1 2025 - Nhanh & Không Checkpoint',
-  description: '🚀 Hướng dẫn cào comment Facebook realtime an toàn 100%. Tool demo miễn phí + dashboard pro ∞ link tại fb.quetso.com. Không khóa nick!',
+  description: '🚀 Hướng dẫn cào comment Facebook realtime an toàn 100%. Tool demo miễn phí + dashboard pro ∞ link tại fb.thotool.com. Không khóa nick!',
   keywords: [
     'cào comment facebook 2025',
     'tool cào comment facebook',
     'cách cào comment facebook an toàn',
     'cào comment không checkpoint',
-    'quetso facebook scraper'
+    'thotool facebook scraper'
   ],
   openGraph: {
     title: '💬 Cào Comment Facebook Realtime #1 2025',
@@ -166,7 +166,7 @@ export default function Page() {
               <div className="text-4xl mb-4">⚡</div>
               <h3 className="text-2xl font-black mb-4 leading-tight">Phiên bản Pro</h3>
               <p className="opacity-95 mb-6 leading-relaxed">Xử lý hàng triệu link • 24/24 • Không giới hạn</p>
-              <a href="https://fb.quetso.com/" className="inline-flex items-center justify-center gap-2 w-full bg-white text-blue-900 font-bold py-4 px-6 rounded-2xl hover:shadow-xl transition-all">
+              <a href="https://id.thotool.com/" className="inline-flex items-center justify-center gap-2 w-full bg-white text-blue-900 font-bold py-4 px-6 rounded-2xl hover:shadow-xl transition-all">
                 Dashboard Pro
                 <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
@@ -232,7 +232,7 @@ export default function Page() {
               </p>
               <div className="bg-gradient-to-r from-emerald-500 to-blue-600 p-8 rounded-3xl shadow-2xl mb-8">
                 <a
-                  href="https://fb.quetso.com"
+                  href="https://id.thotool.com"
                   className="block w-full max-w-sm mx-auto bg-white text-emerald-900 font-black py-5 px-8 text-lg rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all flex items-center justify-center gap-3"
                 >
                   🚀 BẮT ĐẦU NGAY
