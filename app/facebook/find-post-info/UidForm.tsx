@@ -1,9 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { getInfoFbLink } from "@/api/facebook.api";
 import { LoadingOutlined } from "@ant-design/icons";
 import { Button, Form, Input } from "antd";
-import type { AxiosError } from "axios";
 import { useState, useTransition } from "react";
 import { toast } from "react-toastify";
 import { useUidStore } from "./store";
@@ -28,9 +28,9 @@ export default function UidForm() {
         form.resetFields();
         toast.success("Lấy thông tin thành công!");
       } catch (e) {
-        const error = e as AxiosError;
+        const error = e as any;
         setResult(null);
-        toast.error(`Lỗi server: ${error.message}`);
+        toast.error(error.response?.data?.["message"]);
       } finally {
         setIsGetInfo(false);
       }

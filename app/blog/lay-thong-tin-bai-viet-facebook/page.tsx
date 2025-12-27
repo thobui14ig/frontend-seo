@@ -1,18 +1,17 @@
 import SeoLayout from '@/common/components/layout/SeoLayout'
-import type { Metadata } from 'next'
-import Link from 'next/link'
-import { 
-  ArrowRightIcon, 
-  BoltIcon, 
-  DocumentIcon, 
+import {
+  ArrowRightIcon,
+  BoltIcon,
   ChatBubbleLeftIcon,
   IdentificationIcon,
-  PlayIcon,
+  PlayIcon
 } from '@heroicons/react/24/outline'
 import { StarIcon } from '@heroicons/react/24/solid'
+import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '🔍 Lấy Thông Tin Bài Viết Facebook Nhanh Chóng #1 2025 - Quetso.com',
+  title: 'Lấy Thông Tin Bài Viết Facebook Nhanh Chóng #1 2025 - Quetso.com',
   description: '🚀 Tool lấy thông tin bài viết Facebook realtime: ID post, nội dung, tên page/profile. Hỗ trợ private post + tích hợp cào comment hàng loạt fb.quetso.com',
   keywords: [
     'lấy thông tin bài viết facebook 2025',

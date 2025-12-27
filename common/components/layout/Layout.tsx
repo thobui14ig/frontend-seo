@@ -33,7 +33,7 @@ function Sidebar({ open, onClose }: SidebarProps) {
 
       <aside
         className={`
-        fixed z-40 top-14 md:top-0 left-0
+        fixed z-40 top-14 md:top-0 left-0 mt-5 md:mt-0
         h-[calc(100vh-56px)] md:h-full
         w-[280px]
         bg-gradient-to-b from-[#0b63b6] to-[#1e3a8a] text-white

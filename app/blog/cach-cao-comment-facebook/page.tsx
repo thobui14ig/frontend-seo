@@ -12,7 +12,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '💬 Cách Cào Comment Facebook #1 2025 - Nhanh & Không Checkpoint',
+  title: 'Cách Cào Comment Facebook #1 2025 - Nhanh & Không Checkpoint',
   description: '🚀 Hướng dẫn cào comment Facebook realtime an toàn 100%. Tool demo miễn phí + dashboard pro ∞ link tại fb.quetso.com. Không khóa nick!',
   keywords: [
     'cào comment facebook 2025',
@@ -228,14 +228,14 @@ export default function Page() {
                 </span>
               </h2>
               <p className="text-lg sm:text-xl text-slate-600 mb-8 max-w-lg mx-auto">
-                15K+ sellers tăng 3x doanh số nhờ tool này
+                25K+ sellers tăng 3x doanh số nhờ tool này
               </p>
               <div className="bg-gradient-to-r from-emerald-500 to-blue-600 p-8 rounded-3xl shadow-2xl mb-8">
                 <a
-                  href="/facebook/find-comment-post"
+                  href="https://fb.quetso.com"
                   className="block w-full max-w-sm mx-auto bg-white text-emerald-900 font-black py-5 px-8 text-lg rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all flex items-center justify-center gap-3"
                 >
-                  🚀 BẮT ĐẦU DEMO NGAY
+                  🚀 BẮT ĐẦU NGAY
                   <ArrowRightIcon className="w-6 h-6" />
                 </a>
               </div>

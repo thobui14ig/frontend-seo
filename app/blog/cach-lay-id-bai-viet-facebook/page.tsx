@@ -10,7 +10,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '🔍 Cách Lấy ID Bài Viết Facebook #1 2025 - Siêu Nhanh & Chính Xác',
+  title: 'Cách Lấy ID Bài Viết Facebook #1 2025 - Siêu Nhanh & Chính Xác',
   description: '🚀 Hướng dẫn lấy ID bài viết Facebook realtime cho profile, fanpage, group. Tool demo miễn phí + tích hợp cào comment hàng loạt fb.quetso.com',
   keywords: [
     'cách lấy id bài viết facebook 2025',

@@ -17,4 +17,10 @@ export const blogPosts = [
     description:
       'Lấy nội dung, ID bài viết, tên profile/page Facebook nhanh chóng bằng tool tự động.',
   },
+  {
+    slug: '/blog/tool-cao-comment-facebook',
+    title: 'Tool lấy comment Facebook',
+    description:
+      'Lấy comment Facebook nhanh chóng bằng tool tự động. Xử lý hàng triệu link, chạy 24/24',
+  },
 ]

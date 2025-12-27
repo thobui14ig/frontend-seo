@@ -14,7 +14,7 @@ import {
 } from '@heroicons/react/24/solid'
 
 export const metadata: Metadata = {
-  title: '🔥 Tool Cào Comment Facebook Realtime #1 2025 - Quetso.com',
+  title: 'Tool Cào Comment Facebook Realtime #1 2025 - Quetso.com',
   description: '🚀 Cào comment Facebook realtime siêu tốc chỉ với 1 link. Xử lý ∞ link 24/7, bắt lead tức thì. Không cài đặt, dashboard pro tại fb.quetso.com',
   keywords: [
     'tool cào comment facebook 2025',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const features = [
   {
     icon: BoltIcon,
-    title: 'Realtime <3s',
+    title: 'Lấy Comment Siêu Nhanh <3s',
     desc: 'Comment mới cập nhật tức thì, độ trễ dưới 3 giây',
     color: 'from-blue-500 to-blue-600'
   },
@@ -53,10 +53,10 @@ const features = [
 ]
 
 const stats = [
-  { value: '15K+', label: 'Users', icon: '👥' },
+  { value: '25K+', label: 'Users', icon: '👥' },
   { value: '2.5M+', label: 'Links', icon: '🔗' },
   { value: '99.99%', label: 'Uptime', icon: '🟢' },
-  { value: '<2s', label: 'Latency', icon: '⚡' }
+  { value: '<3s', label: 'Latency', icon: '⚡' }
 ]
 
 const steps = [
@@ -68,14 +68,14 @@ const steps = [
   },
   {
     step: 2,
-    title: 'Realtime Live',
+    title: 'Hệ Thống Tự Động Cào Comment',
     desc: 'Comment mới tự động cập nhật liên tục',
     icon: '⚡'
   },
   {
     step: 3,
     title: 'Export & Action',
-    desc: 'Xuất Excel → Inbox khách → Chốt đơn',
+    desc: 'Xuất Excel',
     icon: '📊'
   }
 ]
@@ -90,12 +90,12 @@ const faqs = [
     a: '♾️ Không giới hạn - scale tự động'
   },
   {
-    q: 'Cào reply comment?',
-    a: '✅ Full tree: gốc + tất cả reply'
+    q: 'Tốc Độ Cào Siêu Nhanh?',
+    a: '✅ <3s'
   },
   {
     q: 'Giá thành?',
-    a: '🆓 Free tier → Pro từ 99k/tháng'
+    a: '🆓 Cực rẻ'
   }
 ]
 
@@ -136,8 +136,8 @@ export default function Page() {
 
             <div className="max-w-2xl mx-auto mb-8 sm:mb-12 px-2">
               <p className="text-lg sm:text-xl lg:text-2xl text-slate-700 leading-relaxed mb-6 sm:mb-8">
-                Chỉ cần 1 link → Cào comment realtime <strong>&lt;2s</strong>. 
-                Xử lý ∞ link 24/24. Bắt đầu ngay!
+                Chỉ cần dán link → Cào comment realtime <strong>&lt;3s</strong>. 
+                Xử lý hàng triệu link ∞ 24/24. Bắt đầu ngay!
               </p>
               
               <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center items-center text-xs sm:text-sm text-slate-600 mb-8 sm:mb-12">
@@ -162,7 +162,7 @@ export default function Page() {
                 className="group w-full sm:w-auto bg-gradient-to-r from-blue-600 to-emerald-600 text-white font-bold py-4 sm:py-5 px-8 sm:px-10 text-base sm:text-lg rounded-2xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 max-w-sm mx-auto"
               >
                 <PlayIcon className="w-5 h-5 sm:w-6 sm:h-6 group-hover:rotate-12 transition-transform flex-shrink-0" />
-                Bắt Đầu Miễn Phí
+                Bắt Đầu Ngay
                 <ArrowRightIcon className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform flex-shrink-0" />
               </a>
             </div>
@@ -171,11 +171,8 @@ export default function Page() {
           {/* Mobile Live Demo */}
           <section className="bg-gradient-to-br from-blue-600/5 to-purple-600/5 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-12 lg:p-20 mb-16 sm:mb-24 border border-blue-200/50 shadow-2xl">
             <div className="text-center">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 mb-4 sm:mb-6">
-                🎥 Dashboard Live
-              </h2>
               <p className="text-base sm:text-xl text-slate-700 mb-6 sm:mb-12 max-w-sm sm:max-w-2xl mx-auto leading-relaxed">
-                Dán link → Comment live → Export → Chốt đơn!
+                Dán link → Xem Comment → Export Excel!
               </p>
               <div className="bg-white/90 rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-2xl border border-slate-200/50">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">

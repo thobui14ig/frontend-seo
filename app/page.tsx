@@ -13,7 +13,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '🚀 ThoTool - Crawl Comment Facebook & TikTok #1 2025 | Siêu Tốc & An Toàn',
+  title: 'ThoTool - Crawl Comment Facebook & TikTok #1 2025 | Siêu Tốc & An Toàn',
   description: 'Crawl comment Facebook/TikTok realtime <2s. ∞ link 24/7, dashboard pro, xuất Excel tự động. Không checkpoint, bắt lead tức thì!',
   keywords: [
     'crawl comment facebook 2025',

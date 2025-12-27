@@ -53,7 +53,7 @@ export default function Page() {
 
             <div className="max-w-2xl mx-auto px-2">
               <p className="text-lg sm:text-xl text-slate-700 leading-relaxed text-balance">
-                <strong>Dán link → &lt;2s → ∞ comment</strong>
+                <strong>Dán link → &lt;3s → ∞ Full Comment</strong>
               </p>
             </div>
           </section>
@@ -126,21 +126,21 @@ export default function Page() {
             {/* Quick Actions */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12 pt-12 border-t border-slate-200">
               <Link
-                href="/facebook/find-post-info"
-                className="group p-6 rounded-2xl bg-gradient-to-r from-slate-50 to-blue-50 border border-slate-200 hover:shadow-xl hover:-translate-y-2 transition-all text-center"
+                href="/facebook/find-comment-post"
+                className="group p-8 rounded-3xl bg-gradient-to-r from-emerald-50 to-green-50 border-2 border-emerald-200 hover:shadow-2xl hover:-translate-y-3 transition-all text-center hover:border-emerald-400"
               >
-                <div className="text-2xl mb-3">🔍</div>
-                <div className="font-bold text-lg text-slate-900 group-hover:text-emerald-600">Lấy ID Post</div>
-                <div className="text-sm text-slate-500 mt-1">&lt;1s extract</div>
+                <div className="text-3xl mb-4">💬</div>
+                <div className="font-black text-xl text-slate-900 mb-2 group-hover:text-emerald-600">Lấy Thông Tin Bài Viết</div>
+                <div className="text-emerald-700 font-bold text-lg">Siêu Nhanh</div>
               </Link>
               
               <Link
                 href="https://fb.quetso.com/"
-                className="group p-6 rounded-2xl bg-gradient-to-r from-emerald-50 to-green-50 border border-emerald-200 hover:shadow-xl hover:-translate-y-2 transition-all text-center"
+                className="group p-8 rounded-3xl bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 hover:shadow-2xl hover:-translate-y-3 transition-all text-center hover:border-blue-400"
               >
-                <div className="text-2xl mb-3">⚡</div>
-                <div className="font-bold text-lg text-slate-900 group-hover:text-emerald-600">Dashboard Pro</div>
-                <div className="text-sm text-emerald-700 font-semibold mt-1">∞ link 24/7</div>
+                <div className="text-3xl mb-4">⚡</div>
+                <div className="font-black text-xl text-slate-900 mb-2 group-hover:text-emerald-600">Phiên Bản Pro</div>
+                <div className="text-blue-700 font-bold text-lg">Xử Lý Hàng Triệu Link</div>
               </Link>
 
               <a

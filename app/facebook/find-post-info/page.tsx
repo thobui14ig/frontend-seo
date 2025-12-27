@@ -45,20 +45,18 @@ export default function Page() {
             </div>
             
             <h1 className="font-black text-3xl sm:text-4xl lg:text-6xl leading-tight mb-6 bg-gradient-to-r from-slate-900 to-emerald-900 bg-clip-text text-transparent">
-              Lấy ID Post Facebook
+              Lấy Thông Tin Bài viết Facebook
               <br className="sm:hidden" />
               <span className="block mt-2 sm:mt-0">
                 <span className="bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent">
-                  Realtime Siêu Nhanh
+                   Siêu Nhanh
                 </span>
               </span>
             </h1>
 
             <div className="max-w-2xl mx-auto mb-8 px-2">
               <p className="text-lg sm:text-xl text-slate-700 leading-relaxed text-balance">
-                <strong>Dán link → &lt;1s → Full info</strong>
-                <br className="sm:hidden" />
-                <span className="text-emerald-600 font-bold">ID Post + UID + Nội dung</span>
+                <strong>Dán link → &lt;3s → Full info</strong>
               </p>
             </div>
           </section>
@@ -93,7 +91,7 @@ export default function Page() {
             <div className="max-w-2xl mx-auto">
               <div className="inline-flex items-center bg-gradient-to-r from-yellow-400 to-orange-500 text-slate-900 px-8 py-4 rounded-3xl mb-12 font-black text-xl shadow-2xl">
                 <StarIcon className="w-8 h-8 mr-3" />
-                TOOL ĐƯỢC 25K+ MARKETERS YÊU THÍCH
+                TOOL ĐƯỢC 25K+ USER YÊU THÍCH
               </div>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-8 bg-gradient-to-r from-slate-900 via-emerald-900 to-blue-900 bg-clip-text text-transparent leading-tight">
                 Demo đã chuẩn?
@@ -121,7 +119,7 @@ export default function Page() {
               >
                 <div className="text-3xl mb-4">💬</div>
                 <div className="font-black text-xl text-slate-900 mb-2 group-hover:text-emerald-600">Cào Comment</div>
-                <div className="text-emerald-700 font-bold text-lg">Realtime live</div>
+                <div className="text-emerald-700 font-bold text-lg">Siêu Nhanh</div>
               </Link>
               
               <Link
@@ -129,15 +127,9 @@ export default function Page() {
                 className="group p-8 rounded-3xl bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 hover:shadow-2xl hover:-translate-y-3 transition-all text-center hover:border-blue-400"
               >
                 <div className="text-3xl mb-4">⚡</div>
-                <div className="font-black text-xl text-slate-900 mb-2 group-hover:text-emerald-600">Dashboard Pro</div>
-                <div className="text-blue-700 font-bold text-lg">∞ link 24/7</div>
+                <div className="font-black text-xl text-slate-900 mb-2 group-hover:text-emerald-600">Phiên Bản Pro</div>
+                <div className="text-blue-700 font-bold text-lg">Xử Lý Hàng Triệu Link</div>
               </Link>
-
-              <div className="group p-8 rounded-3xl bg-gradient-to-r from-purple-50 to-pink-50 border-2 border-purple-200 hover:shadow-2xl hover:-translate-y-3 transition-all text-center cursor-pointer hover:border-purple-400">
-                <div className="text-3xl mb-4">📋</div>
-                <div className="font-black text-xl text-slate-900 mb-2 group-hover:text-emerald-600">Copy JSON</div>
-                <div className="text-purple-700 font-bold text-lg">Ready API</div>
-              </div>
             </div>
           </section>
         </main>

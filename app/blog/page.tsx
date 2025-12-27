@@ -92,8 +92,6 @@ export default function BlogPage() {
                     <div className="flex items-center gap-2 text-sm text-slate-500">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
                       <span>ThoTool Team</span>
-                      <span>•</span>
-                      <time>24/12/2025</time>
                     </div>
                     <Link 
                       href={post.slug}
@@ -124,8 +122,8 @@ export default function BlogPage() {
                   className="group bg-gradient-to-r from-emerald-400 to-emerald-600 text-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all text-center font-bold text-xl"
                 >
                   <div className="text-4xl mb-4">🔍</div>
-                  <div>Lấy ID Post</div>
-                  <div className="text-emerald-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">&lt;2s realtime</div>
+                  <div>Demo Lấy ID Post</div>
+                  <div className="text-emerald-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">&lt;3s realtime</div>
                 </Link>
                 
                 <Link
@@ -133,8 +131,8 @@ export default function BlogPage() {
                   className="group bg-gradient-to-r from-blue-400 to-blue-600 text-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all text-center font-bold text-xl"
                 >
                   <div className="text-4xl mb-4">💬</div>
-                  <div>Cào Comment</div>
-                  <div className="text-blue-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">Live dashboard</div>
+                  <div>Demo Cào Comment</div>
+                  <div className="text-blue-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">&lt;3s realtime</div>
                 </Link>
                 
                 <Link
@@ -142,8 +140,8 @@ export default function BlogPage() {
                   className="group bg-gradient-to-r from-purple-400 to-purple-600 text-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-3 transition-all text-center font-bold text-xl"
                 >
                   <div className="text-4xl mb-4">⚡</div>
-                  <div>Phiên bản Pro chạy hàng triệu link</div>
-                  <div className="text-purple-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">∞ link 24/24</div>
+                  <div>Phiên Bản Pro</div>
+                  <div className="text-purple-100 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">Xử Lý Hàng Triệu Link∞ 24/24</div>
                 </Link>
               </div>
 
